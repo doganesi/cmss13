@@ -222,12 +222,6 @@
 				carbon_target.apply_effect(1, WEAKEN)
 			to_chat(carbon_target, SPAN_WARNING("The violent tremors make you lose your footing!"))
 
-	spawn(caste.tremor_cooldown)
-		used_tremor = 0
-		to_chat(src, SPAN_NOTICE("We gather enough strength to cause tremors again."))
-		for(var/X in actions)
-			var/datum/action/act = X
-			act.update_button_icon()
 	apply_cooldown()
 	return ..()
 

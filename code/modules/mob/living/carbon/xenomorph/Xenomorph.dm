@@ -279,6 +279,7 @@
 	var/stealth = FALSE
 	var/fortify = FALSE
 	var/crest_defense = FALSE
+	var/submerge = FALSE
 	/// 0/FALSE - upright, 1/TRUE - all fours
 	var/agility = FALSE
 	var/ripping_limb = FALSE

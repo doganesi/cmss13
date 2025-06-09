@@ -527,6 +527,9 @@
 /obj/effect/xenomorph/xeno_telegraph/red
 	color = COLOR_DARK_RED
 
+/obj/effect/xenomorph/xeno_telegraph/white
+	color = COLOR_WHITE
+
 /obj/effect/xenomorph/xeno_telegraph/brown
 	color = COLOR_BROWN
 

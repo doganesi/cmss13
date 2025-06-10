@@ -42,3 +42,27 @@
 	xeno_cooldown =  4 MINUTES
 	cooldown_message = "We can dig a tunnel again."
 
+// Resin Shark Abilities
+
+/datum/action/xeno_action/activable/sweep
+	name = "Tail Sweep"
+	action_icon_state = "agility_on"
+	action_type = XENO_ACTION_CLICK
+	ability_primacy = XENO_PRIMARY_ACTION_1
+	xeno_cooldown = 2 SECONDS
+
+/datum/action/xeno_action/activable/chomp
+	name = "Chomp"
+	action_icon_state = "headbite"
+	action_type = XENO_ACTION_CLICK
+	ability_primacy = XENO_PRIMARY_ACTION_2
+	xeno_cooldown = 2 SECONDS
+
+/datum/action/xeno_action/onclick/submerge
+	name = "Submerge"
+	action_icon_state = "stomp"
+	action_type = XENO_ACTION_CLICK
+	ability_primacy = XENO_PRIMARY_ACTION_3
+
+	var/resin_plasma_per_step = 2
+	var/ground_plasma_per_step = 15
